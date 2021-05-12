@@ -1,0 +1,79 @@
+@font-face {
+font-family : Millimetre;
+src : url(../import/Millimetre-Regular_web.woff), url(../import/Millimetre-Light_web.woff), url(../import/Millimetre-Bold_web.woff), url(../import/Millimetre-Extrablack_web.woff);
+}
+
+@keyframes flèche{
+
+	0%{
+		margin-top: 10vw;
+	}
+
+	30%{
+		margin-top: 9vw;
+	}
+
+	60%{
+		margin-top: 10vw;
+	}
+}
+
+
+
+body{
+	background-color: #d2c1e1; 
+	font-family: Millimetre;
+}
+
+h1{
+	width: 40vw;
+	margin: auto;
+	margin-top: 10vh;
+	text-align: center;
+	font-size: 6.5em;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #eae7b2;
+}
+
+p{
+	width: 70vw;
+	margin: 10vh auto;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1.2;
+	color: #6eace9;
+	font-weight: 100;
+}
+
+h2{
+	width: 80vw;
+	margin: auto;
+	margin-top: 10vh;
+	text-align: center;
+	font-size: 2.8em;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #eae7b2;
+}
+
+img{
+	width: 5.2vw;
+	margin-top: 10vw;
+	margin-left: 47vw;
+	text-align: center;
+	animation: flèche 1s infinite; /*ou ease 2 si on veut qu'elle le fasse 2 fois, alternate si on veut un effet boomerange, infinite si on veut qu'elle soit en boucle*/
+}
+
+
+img:hover {
+	animation: none;
+}
+
+
+
+
+
+
+
+

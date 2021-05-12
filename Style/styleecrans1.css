@@ -1,0 +1,176 @@
+@font-face {
+font-family : Millimetre;
+src : url(../import/Millimetre-Regular_web.woff), url(../import/Millimetre-Light_web.woff), url(../import/Millimetre-Bold_web.woff), url(../import/Millimetre-Extrablack_web.woff);
+}
+
+
+nav{
+	animation: opacity1 5s ease;
+}
+
+@keyframes opacity1{
+	0%{
+		opacity: 0%;
+	}
+	50%{
+		opacity: 0%;
+	}
+
+	100%{
+		opacity: 100%;
+	}
+}
+
+body{
+	background-image: url(../import/tabletteecrans.gif);
+	background-color: #0e0e0e;
+	background-repeat: no-repeat;
+	font-family: Millimetre;
+	background-size: 105%;
+}
+
+
+
+img{
+	margin-left: 2vw;
+	margin-top: 2vw;
+	transform: rotate(180deg);
+}
+
+
+section{
+	display: flex;
+/*	justify-content: space-around;*/
+	align-items: center;
+}
+
+
+article{
+	/*border: 1px solid white;*/
+	width: 30vw;
+	height: 85vh;
+	margin-top: 10vh;
+}
+
+#info{
+	width: 30vw;
+	height: 36vh;
+	margin-left: 0vw;
+	border-radius: 25px;
+	background-color: #6eace9; /*bleu*/
+	position: absolute;
+	animation: opacity1 5s ease;
+}
+
+h4{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	width: 10vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	padding-right: 1.5vw;
+	padding-left: 2vw;	
+	border-radius: 20px;
+	position: relative;
+	margin-top: -2vw;
+	margin-left: -5vh;
+	background-color: #eae7b2; /*jaune*/
+	color: black;
+	box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.60);
+}
+
+article p{
+	width: 24vw;
+	height: 22vh;
+	margin-left: 3vh;
+	margin-top: 4vh;
+	border-radius: 20px;
+	background-color: #eae7b2; /*jaune*/
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	padding-right: 1.5vw;
+	padding-left: 1.5vw;
+	font-size: 1.3em;	
+	line-height: 1.2;
+	color: black;
+	font-weight: 400;
+	text-align: center;
+	box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.60);
+}
+
+aside{
+	/*border: 1px solid white;*/
+	margin-left: 6vw;
+	height: 80vh;
+	margin-top: 5vh;
+}
+
+#écran3{
+	/*border: 1px solid white;*/
+	width: 24vw;
+	height: 32vh;
+	font-size: 1.2em;	
+	line-height: 1.2;
+	color: black;
+	font-weight: 400;
+	text-align: center;
+	animation: opacity1 5s ease;
+	margin-left: 18.5vw;
+	margin-top: 2.5vh;
+}
+
+#écran1et2{
+	/*border: 1px solid white;*/
+	width: 60vw;
+	font-size: 1.2em;	
+	line-height: 1.2;
+	color: black;
+	font-weight: 400;
+	text-align: center;
+	animation: opacity1 5s ease;
+	margin-left: 1vw;
+	display: flex;
+	margin-top: 11vh;
+}
+
+#écran1{
+	/*border: 1px solid white;*/
+	text-align: center;
+	animation: opacity1 5s ease;
+	width: 24vw;
+	margin-left: 1vw;
+	padding-top: 5vh;
+}
+
+#écran2{
+	/*border: 1px solid white;*/
+	text-align: center;
+	animation: opacity1 1s ease;
+	margin-left: 8.5vw;
+	width: 24vw;
+	padding-top: 0.5vh;
+}
+
+
+a{
+	position: absolute;
+}
+
+
+#click{
+	font-weight: 800;
+}
+
+
+#click:hover{
+	font-size: 1.25em; 
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+

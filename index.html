@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+		<title> MINISITE PAGE 1 </title>
+
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="style/reset.css">
+
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+
+		<script type="text/javascript"src="js/jquery.js"> </script>
+
+		<link rel="stylesheet" type="text/css" href="style/animsition.css">
+
+
+
+
+</head>
+
+
+<body class="animsition">
+
+	
+	<h1>le memex</h1>
+
+	<p>
+		En 1945, Vannevar Bush avait imaginé une machine, l’ancêtre de notre ordinateur, qui permettrait la mise en commun du savoir. Pour cela, cette machine, qu’il appelle « memex » serait constituée de divers éléments permettant : le stockage d’information, le transfère de fichier, le tri et la consultation de documents.
+	</p>
+
+	<h2>VENEZ DÉCOUVRIR SON FONCTIONNEMENT</h2>
+
+	<a href="pagememex.html" title="lien page memex"  class="animsition-link">
+		<img src="import/flechebleu.png" alt="bouton flèche verte" id="cursor">
+	</a>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script><!-- faire un lien vers la bibliothèque jquery -->
+    <script src="js/animsition.js"></script> <!-- faire un lien vers ce code JS -->
+    <script type="text/javascript">
+		$(document).ready(function() {
+	    $(".animsition").animsition({
+	        // active la ligne en dessous si tu veux un fade-in lors du chargement de la page
+	        // inClass: 'fade-in-down',
+	        outClass: 'fade-out-up',
+	        inDuration: 1500,
+	        outDuration: 800,
+	        linkElement: '.animsition-link',
+	        // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+	        loading: true,
+	        loadingParentElement: 'body', //animsition wrapper element
+	        loadingClass: 'animsition-loading',
+	        loadingInner: '', // e.g '<img src="loading.svg" />'
+	        timeout: false,
+	        timeoutCountdown: 5000,
+	        onLoadEvent: true,
+	        browser: [ 'animation-duration', '-webkit-animation-duration'],
+	        // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+	        // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+	        overlay : false,
+	        overlayClass : 'animsition-overlay-slide',
+	        overlayParentElement : 'body',
+	        transition: function(url){ window.location.href = url; }
+	      });
+	    });
+    </script>
+
+
+
+
+</body>
+
+
+
+</html>
